@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+    background-color: #84e1ad;  
+}
+main > p{
+    margin: 15px 0;
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 1em;
+    line-height: 1.8em;
+}
+
+header{
+    background:linear-gradient(to bottom, #31B06A, #1A5A38);
+    color: white;
+    padding-top: 40px;
+    min-height: 150px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.26);
+}
+
+
+header > h1{
+    
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+header > p{
+    text-align: center;
+    font-size: 1.2em;
+    margin: auto;
+    max-width: 600px;
+    padding: 0 10px 10px 0;
+  
+}
+
+nav ul > li{
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold   ;
+}
+
+nav{
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
+
+nav> ul{
+    
+    list-style-type: none;
+  
+    
+}
+
+nav ul :hover{
+    color: #000000;
+}
+
+main{
+    margin:auto;
+    min-width: 220px;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+}
+h2{
+    font-family: 'idroid';
+    font-size: 1.5em;
+    color: #1A5A38;
+    margin: 0;
+    padding: 0;
+  
+}
+h3{
+    font-family: 'idroid';
+    font-size: 1.2em;
+    color: #1A5A38;
+    margin: 0;
+    padding: 0;
+  
+}
+img{
+    width: 100%;
+}
+
+#bugpeq{
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: auto;
+  
+}
+.video{
+    padding: 0;
+    margin: 0 -20px 30px -20px;
+    background-color: #1A5A38;
+    position: relative;
+    padding-bottom: 59%;
+}
+iframe{
+    width: 90%;
+    position: absolute;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+}
+
+
+#mais{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #d0f0dd;
+    border-radius: 20px;
+}
+#mais > p {
+    margin: 10px 0;
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 1em;
+    line-height: 1.8em;
+}
+
+h4{
+    background-color: #3cb273;
+    color: #f6f6f6;
+    margin: -20px -20px 0 -20px;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+  
+}
+
+
+#mais >ul {
+    padding: 10px;
+    margin: auto;
+    list-style-position: inside;
+    list-style-type: none;
+    columns: 2; 
+    width: 50%;
+}
+
+
+footer{
+    background-color: #1A5A38;
+    color: white;
+    padding: 5  px;
+    text-align: center;
+    margin-top: 20px;
+   
+    
+}
